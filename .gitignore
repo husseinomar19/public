@@ -1,0 +1,31 @@
+# Core WordPress-bestanden uitsluiten
+/wp-admin/
+/wp-includes/
+/wp-content/cache/
+/wp-content/uploads/
+/wp-content/upgrade/
+
+# Plugins uitsluiten (behalve custom plugins)
+
+
+# Thema's uitsluiten (behalve custom thema's)
+!/wp-content/themes/custom/
+
+# Configuratiebestanden met gevoelige data
+wp-config.php
+
+# Logbestanden en tijdelijke bestanden
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Systeembestanden
+.DS_Store
+Thumbs.db
+.env
+.idea/
+.vscode/
+node_modules/
+vendor/
