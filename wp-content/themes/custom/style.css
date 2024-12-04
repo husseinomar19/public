@@ -2851,8 +2851,24 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   visibility: visible;
 }
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
 @media screen and (max-width: 736px) {
   #menu > * {
     padding: 1.5em;
   }
 }/*# sourceMappingURL=main.css.map */
+#footer ul{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+footer p{
+  margin:20px;
+}
