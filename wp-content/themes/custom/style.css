@@ -2599,8 +2599,8 @@ body {
 }
 #header #search {
   transition: all 0.5s ease;
-  max-width: 0;
-  opacity: 0;
+  /* max-width: 0;
+  opacity: 0; */
   overflow: hidden;
   padding: 0;
   white-space: nowrap;
