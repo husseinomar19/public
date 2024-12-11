@@ -34,7 +34,7 @@
                     <a class="fa-search" href="#search">Search</a>
                     <form id="search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
                     <input type="text" name="s" placeholder="Search" value="<?php echo get_search_query(); ?>" />
-                    <button type="submit">Search</button>
+                    <button style="height: 40px;"type="submit">Search</button>
                     </form>
                 </li>
                 <li class="menu">

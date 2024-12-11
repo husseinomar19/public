@@ -38,6 +38,12 @@ function greentech_register_sidebar() {
 }
 add_action('widgets_init', 'greentech_register_sidebar');
 
+function thema_setup() {
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'thema_setup');
+
+
 
 ?>
 

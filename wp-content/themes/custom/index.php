@@ -117,27 +117,16 @@ wp_reset_postdata();
 
 
 						
-						<!-- Pagination -->
-							<ul class="actions pagination">
-								<li><a href="" class="disabled button large previous">Previous Page</a></li>
-								<li><a href="#" class="button large next">Next Page</a></li>
-							</ul>
+	<!-- Pagination -->
+	<ul class="actions pagination">
+		<li><a href="" class="disabled button large previous">Previous Page</a></li>
+		<li><a href="#" class="button large next">Next Page</a></li>
+	</ul>
 
 </div>
 
 <?php dynamic_sidebar('greentech-sidebar'); ?>
 
 </div>
-
-		<!-- Scripts -->
-			<!-- <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> -->
-			<?php
-echo do_shortcode('[event_map]');
-?>
-
 <?php get_footer() ?>
 
